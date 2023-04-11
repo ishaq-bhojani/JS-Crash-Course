@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Recipe App</h1>
+      <div class="search-form-container">
+        <input
+          id="searchInput"
+          type="text"
+          placeholder="Search for recipes..."
+        />
+        <button id="searchBtn">Search</button>
+      </div>
+    </header>
+    <main>
+      <section id="recipeResults">
+        <h2 class="search-results-heading">Search Results</h2>
+        <div class="list-container">
+          <ul id="recipe-list"></ul>
+        </div>
+      </section>
+      <section id="recipeDetails">
+        <h2>Recipe Details</h2>
+        <div id="recipeDetailsContainer"></div>
+      </section>
+    </main>
+  </body>
+</html>
